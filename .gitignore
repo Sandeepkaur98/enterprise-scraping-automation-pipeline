@@ -1,0 +1,37 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & Secrets
+.env
+*.env
+backend/.env
+
+# Persistent storage & sessions
+backend/storage/*.json
+!backend/storage/.gitkeep
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Build artifacts
+frontend/dist/
+dist/
+build/
+.vite/
+
+# System files
+.DS_Store
+Thumbs.db
